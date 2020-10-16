@@ -1,24 +1,34 @@
 ﻿<html>
 
 <head>
+    <title>school</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./legendary/style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="./app.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">PERTER PARTER</a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarr" aria-controls="#navbarr" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarr">
-            <ul class="navbar-nav mr-auto">
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
                 <li><a class="nav-link" href="#">HOME</a></li>
                 <li><a class="nav-link" href="#">Alumni</a></li>
                 <li><a class="nav-link" href="#">Achievements</a></li>
@@ -26,10 +36,8 @@
                 <li><a class="nav-link" href="#">Campus life</a></li>
                 <li><a class="nav-link" href="#">CONTACT</a></li>
             </ul>
-
-
-
         </div>
+
     </nav>
 </header>
 <style>
@@ -149,25 +157,21 @@
     <ul id="What" class="list-group">
 
         <li ondragstart="return false" class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
-            <h4>New School canteen</h4>
             <img src="e1.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
             <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">H.M. Education Centre team is itroducing their very own school canteen</p>
         </li>
 
         <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
-            <h4>New feature!</h4>
             <img src="e2.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
             <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">When your child will enter the school entrance and premises your recieve a notification</p>
         </li>
 
 
     </ul>
-   
-    <div class="ifr">
 
-        <iframe class="iframeclass" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14726.036387165695!2d88.33234198004149!3d22.672084612105174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89cc7b8a8292f%3A0xbe0cbff7ab7b4ebc!2sH.M.%20Education%20Centre!5e0!3m2!1sen!2sin!4v1602352543129!5m2!1sen!2sin"
-            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div>
+
+
+
     <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-lg modal-dialog-centered">
 
@@ -186,6 +190,122 @@
         </div>
     </div>
 
+
+
+
+
+
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="books">
+        <h2 class="text-capitalize ">ALUMUNI</h2>
+    </div>
+
+
+
+
+
+
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-toggle="modal" data-target="#First_Space_Encyclopaedia">
+        <img src="s1.jpg" class="img-responsive">
+
+    </div>
+
+
+
+    <div class="modal fade" id="First_Space_Encyclopaedia">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <img src="s1.jpg" class="img-responsive img_modal">
+                    <p>Aditys Thakkrey</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-toggle="modal" data-target="#Man_on_the_Moon">
+        <img src="s2.jpg" class="img-responsive">
+
+    </div>
+    <!-- Modal -->
+
+
+    <div class="modal fade" id="Man_on_the_Moon">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <img src="s2.jpg" class="img-responsive img_modal">
+                    <p>Vidhya Balan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-toggle="modal" data-target="#Space_Encyclopaedia">
+        <img src="s3.jpg" class="img-responsive">
+
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="Space_Encyclopaedia">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <img src="s3.jpg" class="img-responsive img_modal">
+                    <p>Mukhesh Ambani</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-toggle="modal" data-target="#No_Place_Like_Space">
+        <img src="s4.jpg" class="img-responsive">
+
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="Space_Encyclopaedia">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <img src="s4.jpg" class="img-responsive img_modal">
+                    <p>Rajdeep Sardesai</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="ifr">
+
+        <iframe class="iframeclass" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14726.036387165695!2d88.33234198004149!3d22.672084612105174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89cc7b8a8292f%3A0xbe0cbff7ab7b4ebc!2sH.M.%20Education%20Centre!5e0!3m2!1sen!2sin!4v1602352543129!5m2!1sen!2sin"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
 </body>
 
 
